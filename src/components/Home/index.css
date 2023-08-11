@@ -1,0 +1,245 @@
+.home-container {
+  background-color: #161625;
+  min-height: 100vh;
+  overflow: auto;
+  padding-bottom: 35px;
+}
+
+.home-search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.confirmed-para {
+  color: #ff073a;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+.loader {
+  margin-top: 20px;
+}
+
+.search-icon {
+  color: #94a3b8;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #2f2f43;
+  width: 312px;
+  height: 48px;
+  flex-shrink: 0;
+  box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding-left: 25px;
+  padding-right: 15px;
+}
+
+.search-text {
+  color: #94a3b8;
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+.confirmed-cases {
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+}
+
+.total-confirmed {
+  color: #ff073a;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 100% */
+}
+
+.nation-wide-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+  margin-top: 50px;
+}
+
+.active-para {
+  color: #007bff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+.active-cases {
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+}
+
+.total-active {
+  color: #007bff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 100% */
+}
+
+.recovered-para {
+  color: #28a745;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+.nation-wide-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.total-recovered {
+  color: #28a745;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 100% */
+}
+
+.deceased-para {
+  color: #6c757d;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+.total-deceased {
+  color: #6c757d;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 100% */
+}
+
+.state {
+  color: var(--light-blue-gray-50, #f8fafc);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+
+.asc {
+  color: #94a3b8;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  margin-left: 15px;
+}
+
+.state-wise-data {
+  border-radius: 12px;
+  border: 1px solid var(--light-blue-gray-600, #475569);
+  background: #1e1e30;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.16);
+  width: 839px;
+  align-self: flex-start;
+  margin-top: 25px;
+}
+
+.sort-container {
+  display: flex;
+  align-items: center;
+  width: 250px;
+}
+
+.data-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid var(--light-blue-gray-600, #475569);
+  width: 100%;
+}
+
+.states-unordered-list {
+  margin: 0px;
+  padding: 0px;
+}
+
+.sort-button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  padding: 0px;
+  margin: 0px;
+}
+
+.confirm {
+  color: var(--light-blue-gray-50, #f8fafc);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+
+.search-unordered-list {
+  margin: 0px;
+  padding: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .nation-wide-data {
+    width: 210px;
+  }
+  .search-icon {
+    color: #94a3b8;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+
+  .state-wise-data {
+    width: 90%;
+    align-self: center;
+  }
+  .search-container {
+    width: 824px;
+    height: 72px;
+    flex-shrink: 0;
+  }
+  .home-search-container {
+    padding: 50px;
+  }
+}

@@ -1,0 +1,53 @@
+.search-name {
+  color: var(--light-blue-gray-500, #64748b);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.arrow-icon {
+  color: #facc15;
+  width: 24px;
+  height: 24px;
+}
+
+.search-code {
+  color: var(--light-yellow-400, #facc15);
+
+  /* Text Font / S1 Subtitle */
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.arrow-container {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  background: var(--transparent-info-16, rgba(28, 212, 212, 0.16));
+  height: 25px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.search-list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  width: 312px;
+}
+
+@media screen and (min-width: 798px) {
+  .search-list-container {
+    width: 824px;
+  }
+}

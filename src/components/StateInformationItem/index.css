@@ -1,0 +1,267 @@
+.state-information-container {
+  background-color: #161625;
+  min-height: 100vh;
+  overflow: auto;
+  padding-bottom: 30px;
+}
+
+.state-wide-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.state-inside-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.state-name-container {
+  background-color: #0284c729;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 50px;
+  width: 150px;
+}
+
+.top-districts {
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px; /* 150% */
+}
+
+.confirmed-color {
+  color: #ff073a;
+}
+
+.active-color {
+  color: #007bff;
+}
+
+.recovered-color {
+  color: #28a745;
+}
+
+.deceased-color {
+  color: #6c757d;
+}
+
+.confirm-bg-color {
+  background-color: #331427;
+}
+
+.active-bg-color {
+  background-color: #132240;
+}
+
+.recovered-bg-color {
+  background-color: #182829;
+}
+
+.deceased-bg-color {
+  background-color: #212230;
+}
+
+.district-details {
+  align-self: flex-start;
+}
+
+.state-name-text {
+  color: var(--light-light-blue-500, #0ea5e9);
+  font-family: HK Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px; /* 150% */
+  text-align: center;
+  margin: 0px;
+}
+
+.state-details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.last-update {
+  color: var(--light-blue-gray-300, #cbd5e1);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
+}
+
+.state-tested {
+  color: var(--light-blue-gray-400, #94a3b8);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  margin: 0px;
+}
+
+.tested-cases {
+  color: var(--light-blue-gray-400, #94a3b8);
+  text-align: right;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 100% */
+  margin: 0px;
+}
+
+.sorted-unordered-list {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.district-list-item {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.district-para-cases {
+  color: var(--light-blue-gray-400, #94a3b8);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-right: 15px;
+}
+
+.button-value {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.district-para-name {
+  color: var(--light-blue-gray-400, #94a3b8);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media screen and (min-width: 768px) {
+  .state-inside-container {
+    padding: 50px;
+    align-items: center;
+  }
+
+  .state-tested {
+    color: var(--light-blue-gray-400, #94a3b8);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    margin: 0px;
+  }
+
+  .tested-cases {
+    color: var(--light-blue-gray-400, #94a3b8);
+    text-align: right;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 100% */
+    margin: 0px;
+  }
+  .district-list-item {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    width: 25%;
+  }
+  .district-para-name {
+    color: var(--light-blue-gray-400, #94a3b8);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .district-para-cases {
+    color: var(--light-blue-gray-400, #94a3b8);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 15px;
+  }
+  .last-update {
+    color: var(--light-blue-gray-300, #cbd5e1);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+  }
+  .state-wide-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+  .district-details {
+    align-self: flex-start;
+    padding-left: 60px;
+  }
+  .state-name-text {
+    color: var(--light-light-blue-500, #0ea5e9);
+    font-family: HK Grotesk;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px; /* 150% */
+    text-align: center;
+    margin: 0px;
+  }
+  .state-name-container {
+    background-color: #0284c729;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 50px;
+    width: 300px;
+  }
+  .state-details {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
